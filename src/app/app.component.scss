@@ -1,0 +1,27 @@
+$red: #f44336;
+.invalid {
+  border-color: $red;
+  color: $red;
+}
+
+.validation {
+  color: $red;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+div {
+  display: flex;
+}
+input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border:1px solid #888;
+  flex-grow: 1;
+}
